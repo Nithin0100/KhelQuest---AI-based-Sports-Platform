@@ -35,18 +35,19 @@ https://khelquest-frontend.vercel.app
 
 ## 📁 Project Structure
 
+```text
 KhelQuest/
 └── khelquest-frontend/
-├── src/
-│ ├── components/
-│ │ ├── counters/
-│ │ └── utils/
-│ ├── App.tsx
-│ ├── index.css
-│ └── main.tsx
-├── package.json
-├── tailwind.config.js
-└── vite.config.ts
+    ├── src/
+    │   ├── components/
+    │   │   ├── counters/
+    │   │   └── utils/
+    │   ├── App.tsx
+    │   ├── index.css
+    │   └── main.tsx
+    ├── package.json
+    ├── tailwind.config.js
+    └── vite.config.ts
 
 
 ---
