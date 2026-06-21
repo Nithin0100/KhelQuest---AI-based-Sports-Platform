@@ -1,8 +1,8 @@
 # KhelQuest — AI-Based Sports Platform
 
-Live Demo React TypeScript Vite
-
 KhelQuest is a responsive sports-talent discovery and training platform. Athletes can build profiles, explore sports opportunities, track progress, and analyse push-ups, squats, and high jumps using browser-based pose detection.
+
+---
 
 ## 🚀 Live Demo
 https://khelquest-frontend.vercel.app
@@ -35,19 +35,20 @@ https://khelquest-frontend.vercel.app
 
 ## 📁 Project Structure
 
-```text
 KhelQuest/
 └── khelquest-frontend/
-    ├── src/
-    │   ├── components/
-    │   │   ├── counters/
-    │   │   └── utils/
-    │   ├── App.tsx
-    │   ├── index.css
-    │   └── main.tsx
-    ├── package.json
-    ├── tailwind.config.js
-    └── vite.config.ts
+├── src/
+│ ├── components/
+│ │ ├── counters/
+│ │ └── utils/
+│ ├── App.tsx
+│ ├── index.css
+│ └── main.tsx
+├── package.json
+├── tailwind.config.js
+└── vite.config.ts
+
+---
 
 
 ---
@@ -60,23 +61,32 @@ KhelQuest/
 
 ### Setup
 
-
----
-
-## ▶️ Run Locally
-
-### Step 1: Install & Start
-
 ```bash
-git clone https://github.com/Nithin0100/KhelQuest---AI-based-Sports-Platform.git
+git clone https://github.com/Spandana2012/KhelQuest---AI-based-Sports-Platform.git
 cd KhelQuest---AI-based-Sports-Platform/khelquest-frontend
 npm install
 npm run dev
 
-Open the local URL displayed by Vite in your browser.
-Example: http://localhost:5173
 
-npm run dev       # Start development server
-npm run build     # Create production build
-npm run lint      # Run ESLint checks
-npm run preview   # Preview production build locally
+Open Application
+
+Open the local URL displayed by Vite.Camera-based analysis requires browser camera permission; uploaded-video analysis can be used without it.
+
+### 📦 Available Scripts
+
+Run these commands from `khelquest-frontend/`:
+
+| Command         | Purpose                              |
+|----------------|--------------------------------------|
+| npm run dev    | Start the development server         |
+| npm run build  | Create a production build            |
+| npm run lint   | Run ESLint checks                   |
+| npm run preview| Preview the production build locally |
+
+
+### Current Project Status
+
+KhelQuest is currently a frontend prototype. Authentication, athlete profiles, rankings, bookings, messages, and several dashboard values use mock or client-side data. A production release would require persistent backend services, secure authentication, storage, and server-side validation.
+
+
+
