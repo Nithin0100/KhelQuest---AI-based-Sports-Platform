@@ -1,76 +1,81 @@
-# KhelQuest
+# KhelQuest — AI-Based Sports Platform
 
-KhelQuest is a React and TypeScript sports talent platform built with Vite. It helps athletes create a profile, choose sports, track training progress, upload achievements, view rankings, and run exercise analysis flows for pushups, squats, and high jumps.
+Live Demo React TypeScript Vite
 
-## Features
+KhelQuest is a responsive sports-talent discovery and training platform. Athletes can build profiles, explore sports opportunities, track progress, and analyse push-ups, squats, and high jumps using browser-based pose detection.
 
-- Athlete onboarding and profile creation
-- Sport selection across team, individual, and strength categories
-- Dashboard with progress metrics, targets, badges, and milestone tracking
-- Exercise runners for pushups, squats, and high jump analysis
-- Achievement uploads, feedback, rankings, and local board sections
-- Responsive interface built with Tailwind CSS and Lucide icons
+## 🚀 Live Demo
+https://khelquest-frontend.vercel.app
 
-## Tech Stack
+---
 
-- React 18
-- TypeScript
-- Vite
-- Tailwind CSS
-- MediaPipe Pose
-- Supabase client
-- Lucide React
+## ✨ Features
 
-## Project Structure
+- Athlete onboarding, sport selection, and profile creation  
+- Live-camera and uploaded-video exercise analysis  
+- MediaPipe pose tracking for push-ups, squats, and high jumps  
+- Training plans, daily targets, weekly progress, and achievement badges  
+- Athlete rankings and performance milestones  
+- Achievement uploads and athlete feedback  
+- Finder for athletes, coaches, and nearby sports venues  
+- Local sports board and SAI-focused opportunity views  
+- Responsive navigation and layouts for desktop and mobile  
 
-```text
+---
+
+## 🧠 Tech Stack
+
+- Frontend: React 18, TypeScript, Vite  
+- Styling: Tailwind CSS  
+- Pose Analysis: MediaPipe Pose  
+- Icons: Lucide React  
+- Deployment: Vercel  
+
+---
+
+## 📁 Project Structure
+
 KhelQuest/
-  khelquest-frontend/
-    src/
-      components/
-      main.tsx
-      App.tsx
-    package.json
-    vite.config.ts
-    tailwind.config.js
-```
+└── khelquest-frontend/
+├── src/
+│ ├── components/
+│ │ ├── counters/
+│ │ └── utils/
+│ ├── App.tsx
+│ ├── index.css
+│ └── main.tsx
+├── package.json
+├── tailwind.config.js
+└── vite.config.ts
 
-## Getting Started
+
+---
+
+## ▶️ Run Locally
 
 ### Prerequisites
-
-- Node.js 18 or newer
+- Node.js 18+
 - npm
 
-### Installation
+### Setup
+
+
+---
+
+## ▶️ Run Locally
+
+### Step 1: Install & Start
 
 ```bash
-cd khelquest-frontend
+git clone https://github.com/Nithin0100/KhelQuest---AI-based-Sports-Platform.git
+cd KhelQuest---AI-based-Sports-Platform/khelquest-frontend
 npm install
-```
-
-### Development
-
-```bash
 npm run dev
-```
 
-### Build
+Open the local URL displayed by Vite in your browser.
+Example: http://localhost:5173
 
-```bash
-npm run build
-```
-
-### Preview Production Build
-
-```bash
-npm run preview
-```
-
-## Environment Variables
-
-Create a local `.env` file inside `khelquest-frontend/` if the app needs environment-specific values. Do not commit `.env` files.
-
-## Notes
-
-The app currently uses mock and client-side data in several sections. Connect the flows to backend services as needed for production authentication, persistent athlete profiles, rankings, and uploaded achievements.
+npm run dev       # Start development server
+npm run build     # Create production build
+npm run lint      # Run ESLint checks
+npm run preview   # Preview production build locally
